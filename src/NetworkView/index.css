@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.NetworkView {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+
+  /*border: 1px solid #222;*/
+}
+
+.NetworkView .blurb {
+  text-align: right;
+  font-style: italic;
+  padding-right:12px;
+  color: #ddd;
+}
+
+.NetworkView .title {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.NetworkView .tag-list {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-style: italic;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.NetworkView .tag-list .tag {
+  border: 1px dotted #D39F4C;
+  margin: 5px 10px 5px 10px;
+  padding: 8px 14px 8px 13px;
+  cursor:pointer;
+
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.NetworkView .tag-list .tag:hover {
+  border: 1px dotted white;
+  color: #D39F4C;
+}
+
+.NetworkView .tag-list .tag.selected {
+  border: 1px dotted #D39F4C;
+  color: black;
+  background-color: #D39F4C;
+}

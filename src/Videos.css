@@ -1,0 +1,30 @@
+.videos-container {
+  margin: auto;
+  max-width: 1200px;
+  overflow: auto;
+  padding: 0;
+  color: white;
+}
+
+.videos-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.videos-container a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.videos-container a {
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+
+@media (max-width: 640px) {
+  .NetworkView {
+      display: none;
+  }
+}
